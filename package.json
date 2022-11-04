@@ -13,6 +13,9 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "node_modules/cz-config"
     }
   },
   "devDependencies": {
