@@ -21,6 +21,7 @@
     "commitizen": "^4.2.5",
     "commitlint-config-cz": "^0.13.3",
     "commitlint-config-viki": "^0.0.1",
+    "cz-config": "^0.0.2",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "husky": "^8.0.0",

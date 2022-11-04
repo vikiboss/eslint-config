@@ -6,6 +6,7 @@ specifiers:
   commitizen: ^4.2.5
   commitlint-config-cz: ^0.13.3
   commitlint-config-viki: ^0.0.1
+  cz-config: ^0.0.2
   cz-conventional-changelog: ^3.3.0
   cz-customizable: ^7.0.0
   husky: ^8.0.0
@@ -17,6 +18,7 @@ devDependencies:
   commitizen: 4.2.5
   commitlint-config-cz: 0.13.3
   commitlint-config-viki: 0.0.1
+  cz-config: 0.0.2
   cz-conventional-changelog: 3.3.0
   cz-customizable: 7.0.0
   husky: 8.0.1
@@ -796,6 +798,10 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+    dev: true
+
+  /cz-config/0.0.2:
+    resolution: {integrity: sha512-sKOxslJIbbOx5tnI4BSwXVUgZ/qrojTlKfCH4QybeoB7I6ZY4bPysMxVHu4+WKMwooPMVU89q4W48czMlw1PzQ==}
     dev: true
 
   /cz-conventional-changelog/3.3.0:
