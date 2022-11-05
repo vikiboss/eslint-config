@@ -6,5 +6,6 @@
   "description": "Personal eslint config monorepo for Viki",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {}
 }
