@@ -6,5 +6,9 @@
   "description": "Viki's shareable eslint config monorepo",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
-  "scripts": {}
+  "scripts": {
+    "lint": "eslint --ext .{js,jsx,ts,tsx,vue} .",
+    "lint:fix": "eslint --ext .{js,jsx,ts,tsx,vue} . --fix",
+    "release": "pnpm -r publish"
+  }
 }
