@@ -2,10 +2,9 @@
   "name": "eslint-config",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.14.1",
-  "description": "Personal eslint config monorepo for Viki",
+  "packageManager": "pnpm@7.14.2",
+  "description": "Viki's shareable eslint config monorepo",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {}
 }
