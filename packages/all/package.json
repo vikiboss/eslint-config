@@ -4,7 +4,11 @@
   "description": "Viki's shareable full eslint config for JavaScript, TypeScript, React and Vue",
   "main": "index.js",
   "keywords": [
-    "eslint-config"
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "react",
+    "vue"
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",

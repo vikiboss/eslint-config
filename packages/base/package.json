@@ -4,6 +4,7 @@
   "description": "Viki's shareable basic eslint config for JavaScript",
   "main": "index.js",
   "keywords": [
+    "eslint",
     "eslint-config"
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",

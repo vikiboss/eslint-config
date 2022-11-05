@@ -4,7 +4,9 @@
   "description": "Viki's shareable eslint config for Vue",
   "main": "index.js",
   "keywords": [
-    "eslint-config"
+    "eslint",
+    "eslint-config",
+    "vue"
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
