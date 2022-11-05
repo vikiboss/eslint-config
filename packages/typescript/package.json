@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-viki-ts",
   "version": "0.0.0",
-  "description": "Viki's shareable eslint config for JavaScript, TypeScript",
+  "description": "Viki's shareable eslint config for TypeScript",
   "main": "index.js",
   "keywords": [
     "eslint",
