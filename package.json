@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@7.14.2",
   "description": "Viki's shareable eslint config monorepo",
@@ -9,10 +9,14 @@
   "scripts": {
     "lint": "eslint --ext .{js,jsx,ts,tsx,vue} .",
     "lint:fix": "eslint --ext .{js,jsx,ts,tsx,vue} . --fix",
-    "release": "pnpm -r publish"
+    "release": "bumpp package.json packages/*/package.json -y && pnpm -r publish"
   },
   "devDependencies": {
+    "@types/eslint": "^8.4.10",
     "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "bumpp": "^8.2.1",
     "eslint": "^8.27.0",
     "eslint-config-viki": "workspace:*",
     "eslint-define-config": "^1.11.0",
