@@ -10,5 +10,11 @@
     "lint": "eslint --ext .{js,jsx,ts,tsx,vue} .",
     "lint:fix": "eslint --ext .{js,jsx,ts,tsx,vue} . --fix",
     "release": "pnpm -r publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "eslint": "^8.27.0",
+    "eslint-config-viki": "workspace:*",
+    "eslint-define-config": "^1.11.0"
   }
 }

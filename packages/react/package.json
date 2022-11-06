@@ -10,7 +10,7 @@
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.26.0"
+  "dependencies": {
+    "eslint-define-config": "^1.11.0"
   }
 }

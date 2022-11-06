@@ -5,6 +5,8 @@
   "main": "index.js",
   "keywords": [
     "eslint",
+    "config",
+    "eslintconfig",
     "eslint-config",
     "typescript",
     "react",
@@ -12,7 +14,11 @@
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.26.0"
+  "dependencies": {
+    "eslint-config-viki-base": "workspace:*",
+    "eslint-config-viki-react": "workspace:*",
+    "eslint-config-viki-ts": "workspace:*",
+    "eslint-config-viki-vue": "workspace:*",
+    "eslint-define-config": "^1.11.0"
   }
 }

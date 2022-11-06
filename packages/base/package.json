@@ -5,11 +5,18 @@
   "main": "index.js",
   "keywords": [
     "eslint",
+    "config",
+    "eslintconfig",
     "eslint-config"
   ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-define-config": "^1.11.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
   "devDependencies": {
-    "eslint": "^8.26.0"
+    "eslint": "^8.27.0"
   }
 }
