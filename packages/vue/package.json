@@ -11,6 +11,13 @@
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "dependencies": {
-    "eslint-define-config": "^1.11.0"
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint-config-viki-ts": "workspace:*",
+    "eslint-define-config": "^1.11.0",
+    "eslint-plugin-vue": "^9.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
   }
 }

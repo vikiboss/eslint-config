@@ -11,6 +11,13 @@
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "dependencies": {
-    "eslint-define-config": "^1.11.0"
+    "eslint-config-viki-ts": "workspace:*",
+    "eslint-define-config": "^1.11.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
   }
 }

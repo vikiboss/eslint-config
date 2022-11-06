@@ -9,7 +9,10 @@ type Demo = Test;
 
 function test() {
   a();
-  return [1, 2, 3].map((e) => e + 1);
+  demo();
+  const num: Demo = 3;
+  fs.writeFileSync('demo.txt', 'demo');
+  return [1, 2, num].map((e) => e + 1);
 }
 
 export default test;
