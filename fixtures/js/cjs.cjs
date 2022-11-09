@@ -1,7 +1,7 @@
-function demo() {
-  return 'demo';
+function demo () {
+  return 'demo'
 }
 
-const abc = 123;
+const abc = 123
 
-module.exports = { demo, abc };
+module.exports = { demo, abc }

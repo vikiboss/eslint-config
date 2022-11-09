@@ -1,5 +1,5 @@
-const { defineConfig } = require('eslint-define-config');
+const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
-  extends: ['viki-react', 'viki-vue'],
-});
+  extends: ['viki-react', 'viki-vue']
+})

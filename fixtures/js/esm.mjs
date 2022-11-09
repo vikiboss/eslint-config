@@ -1,5 +1,5 @@
 import cjs from './cjs.cjs';
 
 (() => {
-  (`${cjs.abc}456`).toUpperCase();
-})();
+  (`${cjs.abc}456`).toUpperCase()
+})()

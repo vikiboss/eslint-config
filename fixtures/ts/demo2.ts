@@ -1,3 +1,3 @@
 export type Test = 1 | 2 | 3;
 
-export default () => 123;
+export default () => 123

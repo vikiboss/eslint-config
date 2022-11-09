@@ -1,6 +1,6 @@
 module.exports = {
   extends: 'viki',
   rules: {
-    'import/no-unresolved': ['off'],
-  },
-};
+    'import/no-unresolved': ['off']
+  }
+}
