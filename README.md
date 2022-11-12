@@ -20,9 +20,9 @@ Viki's shareable [ESLint](https://eslint.org/) config monorepo.
 Install `eslint` and `eslint-config-viki` as dev dependency via package manager of choice.
 
 ```shell
-npm i -D eslint-config-viki     # npm
-yarn add -D eslint-config-viki  # yarm
-pnpm add -D eslint-config-viki  # pnpm
+npm i -D eslint eslint-config-viki     # npm
+yarn add -D eslint eslint-config-viki  # yarm
+pnpm add -D eslint eslint-config-viki  # pnpm
 ```
 
 Config your `.eslintrc.js`
@@ -30,8 +30,8 @@ Config your `.eslintrc.js`
 ```js
 module.exports = {
   // alternatives: viki-base viki-ts viki-react viki-vue
-  extends: 'viki',
-};
+  extends: 'viki'
+}
 ```
 
 Add following scripts to `package.json`
