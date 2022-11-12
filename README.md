@@ -10,10 +10,10 @@ Viki's shareable [ESLint](https://eslint.org/) config monorepo.
 **Packages:**
 
 - `eslint-config-viki`: rules for `React` & `Vue` (`TypeScript` by defaults)
-- `eslint-config-base`: rules for base `JavaScript`
-- `eslint-config-ts`: rules for `TypeScript` and `JavaScript`
-- `eslint-config-react`: rules for `React` (`TypeScript` by defaults)
-- `eslint-config-vue`: rules for `Vue` (`TypeScript` by defaults)
+- `eslint-config-viki-base`: rules for base `JavaScript`
+- `eslint-config-viki-ts`: rules for `TypeScript` and `JavaScript`
+- `eslint-config-viki-react`: rules for `React` (`TypeScript` by defaults)
+- `eslint-config-viki-vue`: rules for `Vue` (`TypeScript` by defaults)
 
 ## Usage
 
