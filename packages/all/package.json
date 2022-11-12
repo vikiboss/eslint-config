@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-viki",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Viki's shareable full eslint config for JavaScript, TypeScript, React and Vue",
   "main": "index.js",
   "keywords": [
