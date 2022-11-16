@@ -15,9 +15,7 @@
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-viki-base": "workspace:*",
     "eslint-config-viki-react": "workspace:*",
-    "eslint-config-viki-ts": "workspace:*",
     "eslint-config-viki-vue": "workspace:*",
     "eslint-define-config": "^1.11.0"
   }
