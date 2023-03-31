@@ -1,6 +1,6 @@
 {
   "name": "@vmoe/eslint-config-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Viki's shareable eslint config for TypeScript.",
   "main": "index.js",
   "keywords": [
