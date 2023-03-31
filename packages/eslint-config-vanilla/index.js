@@ -39,6 +39,8 @@ module.exports = defineConfig({
   extends: ['standard', 'plugin:prettier/recommended'],
   ignorePatterns,
   rules: {
+    'prettier/prettier': 'warn',
+
     'no-await-in-loop': 'off',
     'no-undef': 'warn',
     'no-unused-expressions': 'warn',

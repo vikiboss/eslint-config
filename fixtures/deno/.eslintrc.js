@@ -1,6 +1,3 @@
 module.exports = {
-  extends: 'viki',
-  rules: {
-    'import/no-unresolved': ['off']
-  }
+  extends: '@vmoe/eslint-config'
 }
