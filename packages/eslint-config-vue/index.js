@@ -1,8 +1,7 @@
 const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
-  plugins: ['vue'],
-  extends: ['plugin:vue/vue3-recommended', 'viki-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@vmoe/eslint-config-ts'],
   overrides: [
     {
       files: ['*.vue'],

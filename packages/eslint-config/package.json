@@ -1,0 +1,24 @@
+{
+  "name": "@vmoe/eslint-config",
+  "version": "0.0.0",
+  "description": "Viki's shareable full eslint config for JavaScript, TypeScript, React and Vue.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "vanilla",
+    "typescript",
+    "react",
+    "vue"
+  ],
+  "repository": "vikiboss/eslint-config",
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "dependencies": {
+    "@vmoe/eslint-config-react": "workspace:*",
+    "@vmoe/eslint-config-vue": "workspace:*"
+  },
+  "peerDependencies": {
+    "eslint-define-config": "^1.17.0"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "eslint-config",
-  "version": "0.1.1",
+  "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.14.2",
+  "packageManager": "pnpm@7.30.0",
   "description": "Viki's shareable eslint config monorepo",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
@@ -12,16 +12,18 @@
     "release": "bumpp package.json packages/*/package.json -y && pnpm -r publish"
   },
   "devDependencies": {
-    "@types/eslint": "^8.4.10",
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.27.0",
-    "eslint-config-viki": "workspace:*",
-    "eslint-define-config": "^1.11.0",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "@vmoe/eslint-config": "workspace:*",
+    "@vmoe/prettier-config": "^1.0.0",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "prettier": "^2.8.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue": "^3.2.41"
+    "typescript": "^5.0.3",
+    "vue": "^3.2.47"
   }
 }

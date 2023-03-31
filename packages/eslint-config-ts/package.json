@@ -1,0 +1,31 @@
+{
+  "name": "@vmoe/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "Viki's shareable eslint config for TypeScript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/vikiboss/eslint-config",
+    "directory": "packages/eslint-config-ts"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "@vmoe/eslint-config-vanilla": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.3",
+    "eslint-define-config": "^1.17.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

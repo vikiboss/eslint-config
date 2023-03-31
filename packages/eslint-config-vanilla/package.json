@@ -1,0 +1,34 @@
+{
+  "name": "@vmoe/eslint-config-vanilla",
+  "version": "0.0.0",
+  "description": "Viki's shareable eslint config for vanilla JavaScript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/vikiboss/eslint-config",
+    "directory": "packages/eslint-config-vanilla"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-define-config": "^1.17.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

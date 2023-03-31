@@ -1,4 +1,4 @@
-# eslint-config-viki
+# @vmoe/eslint-config
 
 Viki's shareable [ESLint](https://eslint.org/) config monorepo.
 
@@ -9,28 +9,27 @@ Viki's shareable [ESLint](https://eslint.org/) config monorepo.
 
 **Packages:**
 
-- `eslint-config-viki`: rules for `React` & `Vue` (`TypeScript` by defaults)
-- `eslint-config-viki-base`: rules for base `JavaScript`
-- `eslint-config-viki-ts`: rules for `TypeScript` and `JavaScript`
-- `eslint-config-viki-react`: rules for `React` (`TypeScript` by defaults)
-- `eslint-config-viki-vue`: rules for `Vue` (`TypeScript` by defaults)
+- `@vmoe/eslint-config`: rules for `React` & `Vue` (`TypeScript` by defaults)
+- `@vmoe/eslint-config-vanilla`: rules for base `JavaScript`
+- `@vmoe/eslint-config-ts`: rules for `TypeScript` and `JavaScript`
+- `@vmoe/eslint-config-react`: rules for `React` (`TypeScript` by defaults)
+- `@vmoe/eslint-config-vue`: rules for `Vue` (`TypeScript` by defaults)
 
 ## Usage
 
-Install `eslint` and `eslint-config-viki` as dev dependency via package manager of choice.
+Install `eslint` and `@vmoe/eslint-config` as dev dependency via package manager of choice.
 
 ```shell
-npm i -D eslint eslint-config-viki     # npm
-yarn add -D eslint eslint-config-viki  # yarm
-pnpm add -D eslint eslint-config-viki  # pnpm
+npm i -D eslint prettier @vmoe/eslint-config     # npm
+yarn add -D eslint prettier @vmoe/eslint-config  # yarn
+pnpm add -D eslint prettier @vmoe/eslint-config  # pnpm
 ```
 
 Config your `.eslintrc.js`
 
 ```js
 module.exports = {
-  // alternatives: viki-base viki-ts viki-react viki-vue
-  extends: 'viki'
+  extends: '@vmoe/eslint-config'
 }
 ```
 
@@ -49,6 +48,6 @@ Run the script via package manager of choice
 
 ```shell
 npm run lint  # npm
-yarn run lint # yarm
+yarn run lint # yarn
 pnpm run lint # pnpm
 ```
