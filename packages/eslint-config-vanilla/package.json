@@ -1,6 +1,6 @@
 {
   "name": "@vmoe/eslint-config-vanilla",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Viki's shareable eslint config for vanilla JavaScript.",
   "main": "index.js",
   "keywords": [
