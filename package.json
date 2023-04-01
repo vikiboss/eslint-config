@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "private": true,
   "packageManager": "pnpm@7.30.0",
   "description": "Viki's shareable eslint config monorepo",
