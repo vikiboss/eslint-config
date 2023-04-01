@@ -41,6 +41,7 @@ module.exports = defineConfig({
   rules: {
     'prettier/prettier': 'warn',
 
+    camelcase: 'off',
     'no-undef': 'off',
     'no-var-requires': 'off',
     'no-empty-function': 'off',
@@ -49,6 +50,8 @@ module.exports = defineConfig({
     'no-unused-vars': 'off',
     'no-unused-private-class-members': 'off',
     'no-unused-labels': 'off',
+
+    'prefer-const': 'warn',
 
     'import/order': ['warn', importOption],
     'import/no-nodejs-modules': ['warn', { allow: modules }],

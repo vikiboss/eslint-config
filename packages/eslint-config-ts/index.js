@@ -6,6 +6,7 @@ module.exports = defineConfig({
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
 
+    '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-undef': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-empty-function': 'off',
@@ -14,6 +15,8 @@ module.exports = defineConfig({
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-unused-private-class-members': 'off',
     '@typescript-eslint/no-unused-labels': 'off',
+
+    '@typescript-eslint/prefer-const': 'warn',
 
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
