@@ -15,9 +15,7 @@
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "dependencies": {
-    "@vmoe/eslint-config-ts": "workspace:*"
-  },
-  "peerDependencies": {
+    "@vmoe/eslint-config-ts": "workspace:*",
     "eslint-define-config": "^1.17.0"
   },
   "publishConfig": {
