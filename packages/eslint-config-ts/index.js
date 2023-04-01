@@ -16,8 +16,6 @@ module.exports = defineConfig({
     '@typescript-eslint/no-unused-private-class-members': 'off',
     '@typescript-eslint/no-unused-labels': 'off',
 
-    '@typescript-eslint/prefer-const': 'warn',
-
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
 
