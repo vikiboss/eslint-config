@@ -1,6 +1,6 @@
 # @vmoe/eslint-config
 
-Viki's shareable [ESLint](https://eslint.org/) config monorepo.
+Viki's shareable opinionated [ESLint](https://eslint.org/) config monorepo.
 
 **Features:**
 
@@ -9,7 +9,7 @@ Viki's shareable [ESLint](https://eslint.org/) config monorepo.
 
 **Packages:**
 
-- `@vmoe/eslint-config`: rules for `React` & `Vue` (`TypeScript` by defaults)
+- `@vmoe/eslint-config`: rules for `TypeScript` by defaults
 - `@vmoe/eslint-config-vanilla`: rules for base `JavaScript`
 - `@vmoe/eslint-config-ts`: rules for `TypeScript` and `JavaScript`
 - `@vmoe/eslint-config-react`: rules for `React` (`TypeScript` by defaults)
@@ -25,11 +25,11 @@ yarn add -D eslint prettier @vmoe/eslint-config  # yarn
 pnpm add -D eslint prettier @vmoe/eslint-config  # pnpm
 ```
 
-Config your `.eslintrc.js`
+Config your `.eslintrc`
 
 ```js
-module.exports = {
-  extends: '@vmoe/eslint-config'
+{
+  "extends": "@vmoe"
 }
 ```
 

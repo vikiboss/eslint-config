@@ -39,7 +39,7 @@ module.exports = defineConfig({
   extends: ['standard', 'plugin:prettier/recommended'],
   ignorePatterns,
   rules: {
-    'prettier/prettier': 'warn',
+    'prettier/prettier': 'off',
 
     camelcase: 'off',
     'no-undef': 'off',
