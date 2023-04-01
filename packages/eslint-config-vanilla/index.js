@@ -41,10 +41,14 @@ module.exports = defineConfig({
   rules: {
     'prettier/prettier': 'warn',
 
+    'no-undef': 'off',
+    'no-var-requires': 'off',
+    'no-empty-function': 'off',
     'no-await-in-loop': 'off',
-    'no-undef': 'warn',
-    'no-unused-expressions': 'warn',
-    'no-unused-vars': 'warn',
+    'no-unused-expressions': 'off',
+    'no-unused-vars': 'off',
+    'no-unused-private-class-members': 'off',
+    'no-unused-labels': 'off',
 
     'import/order': ['warn', importOption],
     'import/no-nodejs-modules': ['warn', { allow: modules }],
