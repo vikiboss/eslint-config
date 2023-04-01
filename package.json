@@ -3,7 +3,7 @@
   "version": "0.3.1",
   "private": true,
   "packageManager": "pnpm@7.30.0",
-  "description": "Viki's shareable eslint config monorepo",
+  "description": "Viki's shareable opinionated eslint config monorepo",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "scripts": {
