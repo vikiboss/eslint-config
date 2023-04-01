@@ -34,11 +34,9 @@ importers:
 
   packages/eslint-config:
     specifiers:
-      '@vmoe/eslint-config-react': workspace:*
-      '@vmoe/eslint-config-vue': workspace:*
+      '@vmoe/eslint-config-ts': workspace:*
     dependencies:
-      '@vmoe/eslint-config-react': link:../eslint-config-react
-      '@vmoe/eslint-config-vue': link:../eslint-config-vue
+      '@vmoe/eslint-config-ts': link:../eslint-config-ts
 
   packages/eslint-config-react:
     specifiers:
