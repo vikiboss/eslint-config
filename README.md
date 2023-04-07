@@ -17,20 +17,32 @@ Viki's shareable opinionated [ESLint](https://eslint.org/) config monorepo.
 
 ## Usage
 
-Install `eslint` and `@vmoe/eslint-config` as dev dependency via package manager of choice.
+Install these dev dependencies via package manager of your choice.
 
 ```shell
-npm i -D eslint prettier @vmoe/eslint-config     # npm
-yarn add -D eslint prettier @vmoe/eslint-config  # yarn
-pnpm add -D eslint prettier @vmoe/eslint-config  # pnpm
+pnpm add -D eslint prettier @vmoe/eslint-config @vmoe/prettier  # pnpm
+```
+
+```shell
+npm i -D eslint prettier @vmoe/eslint-config @vmoe/prettier     # npm
+```
+
+```shell
+yarn add -D eslint prettier @vmoe/eslint-config @vmoe/prettier  # yarn
 ```
 
 Config your `.eslintrc`
 
-```js
+```json
 {
   "extends": "@vmoe"
 }
+```
+
+Config your `.prettierrc`
+
+```json
+"@vmoe/prettier-config"
 ```
 
 Add following scripts to `package.json`
@@ -44,7 +56,7 @@ Add following scripts to `package.json`
 }
 ```
 
-Run the script via package manager of choice
+Run the script via package manager of your choice
 
 ```shell
 npm run lint  # npm
