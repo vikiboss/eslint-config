@@ -20,15 +20,15 @@ Viki's shareable opinionated [ESLint](https://eslint.org/) config monorepo.
 Install these dev dependencies via package manager of your choice.
 
 ```shell
-pnpm add -D eslint prettier @vmoe/eslint-config @vmoe/prettier  # pnpm
+pnpm add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config  # pnpm
 ```
 
 ```shell
-npm i -D eslint prettier @vmoe/eslint-config @vmoe/prettier     # npm
+npm i -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config     # npm
 ```
 
 ```shell
-yarn add -D eslint prettier @vmoe/eslint-config @vmoe/prettier  # yarn
+yarn add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config  # yarn
 ```
 
 Config your `.eslintrc`
