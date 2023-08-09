@@ -1,34 +1,33 @@
 # @vmoe/eslint-config
 
-Viki's shareable opinionated [ESLint](https://eslint.org/) config monorepo.
+Viki's shareable opinionated [ESLint](https://eslint.org) config monorepo.
 
 **Features:**
 
 - base on [standard](https://github.com/standard/eslint-config-standard)
-- support `React` & `Vue`
+- support `React` & `Vanilla JS/TS`
 
 **Packages:**
 
-- `@vmoe/eslint-config`: rules for `TypeScript` by defaults
+- `@vmoe/eslint-config`: rules for `TypeScript` (fallback to vanilla JS if no TS module detected)
 - `@vmoe/eslint-config-vanilla`: rules for base `JavaScript`
 - `@vmoe/eslint-config-ts`: rules for `TypeScript` and `JavaScript`
 - `@vmoe/eslint-config-react`: rules for `React` (`TypeScript` by defaults)
-- `@vmoe/eslint-config-vue`: rules for `Vue` (`TypeScript` by defaults)
 
 ## Usage
 
 Install these dev dependencies via package manager of your choice.
 
 ```shell
-pnpm add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config  # pnpm
+pnpm add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config
 ```
 
 ```shell
-npm i -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config     # npm
+npm i -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config
 ```
 
 ```shell
-yarn add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config  # yarn
+yarn add -D eslint prettier @vmoe/eslint-config @vmoe/prettier-config
 ```
 
 Config your `.eslintrc`

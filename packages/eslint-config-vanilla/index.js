@@ -9,7 +9,7 @@ const ignorePatterns = [
   '*{rc,.config}.{m,c}?{j,t}sx?',
   '*.min.*',
   '**/{public,dist,build,vendor,output,coverage}{,/*}',
-  '**/node_modules{,/*}'
+  '**/node_modules{,/*}',
 ]
 
 const importOrder = [
@@ -17,7 +17,7 @@ const importOrder = [
   'internal',
   ['sibling', 'parent', 'object', 'index'],
   'type',
-  'unknown'
+  'unknown',
 ]
 
 const importOption = {
@@ -26,21 +26,19 @@ const importOption = {
   warnOnUnassignedImports: true,
   alphabetize: {
     order: 'asc',
-    caseInsensitive: true
-  }
+    caseInsensitive: true,
+  },
 }
 
 module.exports = defineConfig({
   env: {
     es6: true,
     browser: true,
-    node: true
+    node: true,
   },
   extends: ['standard', 'plugin:prettier/recommended'],
   ignorePatterns,
   rules: {
-    'prettier/prettier': 'off',
-
     camelcase: 'off',
     'no-undef': 'off',
     'no-var-requires': 'off',
@@ -55,6 +53,6 @@ module.exports = defineConfig({
 
     'import/order': ['warn', importOption],
     'import/no-nodejs-modules': ['warn', { allow: modules }],
-    'import/no-extraneous-dependencies': 'warn'
-  }
+    'import/no-extraneous-dependencies': 'warn',
+  },
 })

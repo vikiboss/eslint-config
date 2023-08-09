@@ -20,6 +20,6 @@ module.exports = defineConfig({
     '@typescript-eslint/no-non-null-assertion': 'off',
 
     '@typescript-eslint/consistent-type-assertions': ['warn', { assertionStyle: 'as' }],
-    '@typescript-eslint/consistent-type-imports': ['warn', { fixStyle: 'separate-type-imports' }]
-  }
+    '@typescript-eslint/consistent-type-imports': ['warn', { fixStyle: 'separate-type-imports' }],
+  },
 })

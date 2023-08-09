@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@vmoe/eslint-config'
+  extends: '@vmoe/eslint-config',
 }
