@@ -15,7 +15,7 @@
   "dependencies": {
     "@vmoe/eslint-config-ts": "workspace:*",
     "@vmoe/eslint-config-vanilla": "workspace:*",
-    "eslint-define-config": "^1.17.0",
+    "eslint-define-config": "^1.23.0",
     "local-pkg": "^0.4.3"
   },
   "publishConfig": {
