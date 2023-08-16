@@ -22,7 +22,8 @@
     "eslint-define-config": "^1.23.0"
   },
   "peerDependencies": {
-    "typescript": "^5.0.3"
+    "typescript": "^5",
+    "eslint": "^8"
   },
   "publishConfig": {
     "access": "public",

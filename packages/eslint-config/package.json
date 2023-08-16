@@ -18,6 +18,9 @@
     "eslint-define-config": "^1.23.0",
     "local-pkg": "^0.4.3"
   },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
