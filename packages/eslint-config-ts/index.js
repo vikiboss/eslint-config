@@ -19,6 +19,9 @@ module.exports = defineConfig({
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
 
+    '@typescript-eslint/await-thenable': 'warn',
+    '@typescript-eslint/no-misused-promises': 'warn',
+    '@typescript-eslint/promise-function-async': 'warn',
     '@typescript-eslint/consistent-type-assertions': ['warn', { assertionStyle: 'as' }],
     '@typescript-eslint/consistent-type-imports': ['warn', { fixStyle: 'separate-type-imports' }],
   },
